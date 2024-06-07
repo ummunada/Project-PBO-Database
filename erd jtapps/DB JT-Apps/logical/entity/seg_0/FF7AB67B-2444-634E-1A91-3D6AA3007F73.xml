@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF7AB67B-2444-634E-1A91-3D6AA3007F73" name="Jenis_Kamar">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-06 13:31:40 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_JenisKamar" id="8D8E2F6B-DADD-8ACB-F423-9C0C5F39EF9A">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-06 13:32:11 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_JenisKamar" id="AAEEDF07-406B-0C3E-D67E-5CCAABFCBEA3">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-06 13:32:25 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto" id="9C75AD18-80DB-8D51-446D-168A24F87626">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 14:21:43 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="652345AE-A1DE-9BDB-C830-6A7D2AAD08D7" name="Jenis_Kamar PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-06 13:32:23 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D8E2F6B-DADD-8ACB-F423-9C0C5F39EF9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

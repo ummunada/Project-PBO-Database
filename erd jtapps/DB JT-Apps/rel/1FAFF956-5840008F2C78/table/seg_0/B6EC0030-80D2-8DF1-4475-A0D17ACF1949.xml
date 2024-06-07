@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6EC0030-80D2-8DF1-4475-A0D17ACF1949" name="Transaksi">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>EA723EF9-8F3B-E50F-9E7A-BE171202F53E</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tgl_Transaksi" id="DFA16443-930F-DF0E-59D5-174DA37A7BC4">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>02627CA7-52C7-F608-6FEE-D475E23D6033</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kuantitas" id="7A09A372-76BF-6116-167E-47BB68C67F98">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>8C653A89-F01F-3132-4305-2B39C16ECFA7</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_Nomor_Telepon" id="FD22714F-0ED5-1378-6706-BD043B5F5453">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>F85C97FD-FBFA-FDBA-CC2D-8F44D1FCEACB</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaksi_ID" id="09251DBE-28C6-0DCD-2BE0-EA5398E845FE">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Voucher_Voucher_ID" id="EA9C949A-7B80-2BFA-52F0-77A02DE5B5C8">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BCCFA0C-A032-B8A1-192A-BB5177018E10" referredColumn="6DB66BB4-4E8E-C73B-F1D9-828B52AF7183"/>
+</associations>
+</Column>
+<Column name="User_User_ID" id="2CEDEEF7-C338-2E23-C649-C0751663D536">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 15:19:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4EDCAEF-5F95-FADB-B7E7-11AE49ABA4FD" referredColumn="219CA5CB-39B3-AB0F-702B-4775C4570193"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9285489-97F1-E642-C641-09BFC719AF29" name="Transaksi_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="09251DBE-28C6-0DCD-2BE0-EA5398E845FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62C81932-0950-185A-A844-144F729085BE" name="Transaksi_Voucher_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>D8CE0A50-A150-D5A2-72CC-1DC614FE7D55</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9C949A-7B80-2BFA-52F0-77A02DE5B5C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3736D45-2551-0789-DB05-18C814DF9263" name="Transaksi_User_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>532161FE-FA1F-6940-997B-701714EBBEE3</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CEDEEF7-C338-2E23-C649-C0751663D536"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9002DDC-1A4C-065F-D3A7-1648819992D8" name="Image_Slider">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>A030C06C-47D4-7FCD-3799-102FD6950CD2</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="image_slider" id="15FD12FC-72C9-D47E-42A9-F533DD5EAD96">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>D411C817-5E0F-0333-8A60-62D3F3D5C2E1</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Homepage_id_Homepage" id="05BD9AAE-A595-95EB-A6C6-F9E28ED454C5">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>2E5A02BE-1D5A-9B81-DB11-D871BB5613AF</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAF143F6-9123-F402-8BC6-BE36731EB4F8" referredColumn="020149AF-0FDE-0049-A537-0351CFEA1D83"/>
+</associations>
+</Column>
+<Column name="Image_Slider_ID" id="F3A2563D-ABEB-6BF4-B8D7-37DCFEE3122E">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DF77B31-7133-3625-CD77-D3DE1F32C8D9" name="Image_Slider_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F3A2563D-ABEB-6BF4-B8D7-37DCFEE3122E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8355EF98-9005-C0A9-5D46-22ED3ECBD0B0" name="Image_Slider__IDX">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>45C99E3B-7D90-0B3B-6579-D55D23EDDD79</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="05BD9AAE-A595-95EB-A6C6-F9E28ED454C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B196512-7F93-A769-ECA6-422336E8C2BB" name="Image_Slider_Homepage_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>45C99E3B-7D90-0B3B-6579-D55D23EDDD79</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05BD9AAE-A595-95EB-A6C6-F9E28ED454C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

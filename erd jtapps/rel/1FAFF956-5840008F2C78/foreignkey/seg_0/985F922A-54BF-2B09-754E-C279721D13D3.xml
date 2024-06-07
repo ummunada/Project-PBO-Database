@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="985F922A-54BF-2B09-754E-C279721D13D3" containerWithKeyObject="D4008E2A-08BB-CE69-B07B-19F197A6DEEE" localFKIndex="B0F59880-26F4-E510-DF2E-F4D271AEDF51" name="Voucher_Homepage_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>344BABAA-E7D2-39B9-88D7-1B31FD48B35E</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<referredTableLongName>Homepage</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94635418-D517-BBD8-7EF7-F6A4A5CF1D7F</referredTableID>
+<keyObject>55EE285E-61FD-CF6B-AC87-E131A5AB3D27</keyObject>
+<referredKeyID>55EE285E-61FD-CF6B-AC87-E131A5AB3D27</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_Homepage</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

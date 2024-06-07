@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC09B06F-06DC-6C3E-B637-4024F01944AE" name="Penilaian">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>370D2BF5-BD64-8634-E302-E070F2D30D87</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Review" id="D6B3480D-6FD8-54C8-16A4-E7DAED15576E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>BB23C01C-1ABB-0FDE-FDE3-4E58F529F54E</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rating_Tempat" id="4171C05C-5A8B-AB10-AA39-64D701F6F04D">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>D134CA85-ABA0-4EC9-416E-3CE63D593D9E</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rating_Kebersihan" id="93E8CAC8-20B6-17E5-1460-BE156811507C">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>AF8A7B09-AB85-6629-36B1-A4AFF9AFA3DF</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_Nomor_Telepon" id="E5AB6143-49A2-0578-EFD2-5C85F2DD6817">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>A53720F7-D7B0-3B93-5513-12322671EEB0</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A457F9D-466B-A166-FF28-A37312E3EEA2" referredColumn="88CE22EC-06F0-F986-936F-035354A94AFC"/>
+</associations>
+</Column>
+<Column name="Penilaian_ID" id="51FCEEBC-CE70-5559-FF96-E687CCACEE94">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7FDD0F0-3CBA-2999-7730-9DFF900ECC4F" name="Penilaian_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="51FCEEBC-CE70-5559-FF96-E687CCACEE94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42490E2C-FF55-12A0-1F31-B87090BE3E26" name="Penilaian_User_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>2F9D1266-DA3A-8E88-FD3C-8FB432CABB41</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5AB6143-49A2-0578-EFD2-5C85F2DD6817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

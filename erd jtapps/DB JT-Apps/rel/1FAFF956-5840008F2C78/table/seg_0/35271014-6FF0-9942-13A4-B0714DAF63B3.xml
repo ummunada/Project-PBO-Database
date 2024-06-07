@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35271014-6FF0-9942-13A4-B0714DAF63B3" name="Detail_Transaksi">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>1DB215D8-3F64-149A-76F4-97A0D0DED00B</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Transaksi_Transaksi_ID" id="C9C44589-0C59-5D5B-F489-62D9855019C2">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3790A87B-087E-3284-1F4D-BE98ECF5E4BF" referredColumn="09251DBE-28C6-0DCD-2BE0-EA5398E845FE"/>
+</associations>
+</Column>
+<Column name="Wishlist_Wishlist_ID" id="C3436840-D1FF-FC06-4DEF-33AA7E6E81E9">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06B60D9C-3D3C-7E3C-6C8F-F40D809318D6" referredColumn="44D10F33-4B3E-A5F8-F909-6411788F630C"/>
+</associations>
+</Column>
+<Column name="Pengunjung_Pengunjung_ID" id="2E1B0417-0DC7-34D1-476F-E998EDC20841">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAF35548-41B5-D0E0-8B7B-831965DFF9D2" referredColumn="A8DF6210-D587-65A0-82D1-BF5BB10F090B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="751A507F-6F0B-CE75-2F4E-5626D05ED875" name="Detail_Transaksi_Transaksi_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>E59A819E-AD0C-7CCF-D62C-BDFA7D8619C8</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9C44589-0C59-5D5B-F489-62D9855019C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5901921B-69CE-A485-63C9-451E12EAF4C1" name="Detail_Transaksi_Wishlist_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>368A5493-1E94-7C7D-004B-7603CBADD5A2</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3436840-D1FF-FC06-4DEF-33AA7E6E81E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA28C5AB-A200-C57D-01DE-9561603BCCAA" name="Detail_Transaksi_Pengunjung_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>E987A5FD-9EBC-66D7-E454-1F80120E8830</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E1B0417-0DC7-34D1-476F-E998EDC20841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

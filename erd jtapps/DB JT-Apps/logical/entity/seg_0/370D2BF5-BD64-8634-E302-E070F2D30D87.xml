@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="370D2BF5-BD64-8634-E302-E070F2D30D87" name="Penilaian">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-06 14:01:25 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Review" id="BB23C01C-1ABB-0FDE-FDE3-4E58F529F54E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-06 14:01:30 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rating_Tempat" id="D134CA85-ABA0-4EC9-416E-3CE63D593D9E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-06 14:03:24 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Wisata" id="855535C2-1900-E4E2-0C4F-DBD63CC64E7F">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 11:39:23 UTC</createdTime>
+<generatorID>2B8B4521-6FD9-D619-A450-73CC61FC467D</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<referedAttribute>B789AD2C-9799-EDEE-3B65-09A7E375CBE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto" id="ED1DD679-02AD-4657-F7FF-05038E3F2D2C">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 14:17:49 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA6CBC17-5F7A-A218-7B6D-38F1A9AD4A7C" containerWithKeyObject="94635418-D517-BBD8-7EF7-F6A4A5CF1D7F" localFKIndex="9ACB9A0A-3976-C75A-81A7-1ADC0A0D0F37" name="Homepage_Akun_Admin_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 14:51:07 UTC</createdTime>
+<generatorID>E989A211-811F-52DF-8639-89BEAD0AC28D</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<referredTableLongName>Akun_Admin</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84E887F9-698B-29FA-05FD-F554575A889B</referredTableID>
+<keyObject>B43D722F-BC69-23FC-558B-FACE3B3ED990</keyObject>
+<referredKeyID>B43D722F-BC69-23FC-558B-FACE3B3ED990</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_AkunAdmin</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

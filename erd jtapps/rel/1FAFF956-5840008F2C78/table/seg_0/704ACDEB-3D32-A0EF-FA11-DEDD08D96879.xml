@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="704ACDEB-3D32-A0EF-FA11-DEDD08D96879" name="FAQ">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>4233C0E1-3C5C-F391-844B-396AA606373A</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pertanyaan" id="3A7D325A-3D91-E9B8-6B74-EC2AA9F2BE21">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>F75C4102-0DC4-F88F-27BD-AB30445373E2</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jawaban" id="83CAC57A-3C47-D33E-937F-307F9382B1BB">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>079170AF-856E-CFD6-2A6B-41B5FEE39D6C</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Homepage_id_Homepage" id="C26874B7-1DD3-044F-FAE3-6FF9CB3E939F">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>435CBBA7-7D01-8D42-6A69-8B897C3DE69C</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3019C82-7974-AA16-42F1-49627D7BA04B" referredColumn="804C4E74-7F50-43FD-90D1-8E9F2631AC81"/>
+</associations>
+</Column>
+<Column name="FAQ_ID" id="DE63F841-AEAC-6E5B-1307-94AADC83FBCE">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Homepage_id_Homepage1" id="4B547FA5-BB48-9F87-FDA5-AE3DB4EFBF5D">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<generatorID>75C409D9-1958-91A5-9605-F15EC241C9F5</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E78F5DCB-19E2-8849-5AE7-A84878015961" name="FAQ_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DE63F841-AEAC-6E5B-1307-94AADC83FBCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F98E3E6-0D6A-4B67-699B-7DC8D4631A75" name="FAQ__IDX">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>71B090EE-25E7-2E2F-FEDA-E1F36946B5F3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C26874B7-1DD3-044F-FAE3-6FF9CB3E939F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC02A0DE-A512-D46B-FA06-07D5E9CD62EB" name="FAQ__IDXv1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>510F819C-5BB5-0AC4-7221-594DADD83659</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4B547FA5-BB48-9F87-FDA5-AE3DB4EFBF5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB349409-D2F5-8184-8ABC-68475C12AD1A" name="FAQ_Homepage_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>71B090EE-25E7-2E2F-FEDA-E1F36946B5F3</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C26874B7-1DD3-044F-FAE3-6FF9CB3E939F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A99F966-6B4D-3983-079E-2A5DF4796827" name="Wishlist">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>6E4B0CEE-74CF-B61D-22A9-A7F5BB2E66E2</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Wishlist_ID" id="6E4E3DE0-D236-6079-5419-FD282A0A13C1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Tiket_Tiket_ID" id="CF61F696-2338-3D0A-4F7C-C3F7829C9906">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 14:51:07 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27FD9EC9-537F-6CB5-27AB-80852B60D8AA" referredColumn="228DFFE0-55C7-27EF-B246-F808A4378C8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55D50576-7F84-BF83-CDD9-A1DECD3E2536" name="Wishlist_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="6E4E3DE0-D236-6079-5419-FD282A0A13C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CA0EA8A-017C-D24C-DD17-334B5A4B37B5" name="Wishlist_Tiket_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 14:51:07 UTC</createdTime>
+<generatorID>018BB6E1-8C6B-00C6-2EE5-F62815F5521E</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF61F696-2338-3D0A-4F7C-C3F7829C9906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A8D36A5-3F3B-E9EE-E2ED-4C49C4D018B8" name="Newsletter">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>C8E23742-C14B-378C-88D8-BEA8BE2C1E68</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Judul" id="1476E009-1F90-77A0-1371-43C45DCC53EC">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>7B291120-DC05-D0A9-F490-8649BFF05040</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal" id="E99AA78F-F38B-D5C8-A069-3460027A2481">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>3B707C79-6301-9601-D2F9-A6EF07686AB5</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Link_Berita" id="42FD9D26-5C34-4373-BF1B-0F288DD17673">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>6CBC7CCE-5652-925C-0053-BB6A500F870F</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Homepage_id_Homepage" id="A9E8A63A-6F47-1D06-727A-E9DB2A84F297">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>5B2DFC9A-EB9B-861A-E4C5-8F4B3FE00324</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="744FC38F-A065-C3AD-4120-86DEED788371" referredColumn="804C4E74-7F50-43FD-90D1-8E9F2631AC81"/>
+</associations>
+</Column>
+<Column name="Deskripsi" id="8C982D52-DB9C-AA06-EB91-4C4D5BFA6442">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>3D2DF7D9-E6DA-E6F6-0CF4-788509998E17</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Newsletter_ID" id="2A401E98-50E9-D66C-E563-244EE1B5C8F8">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Homepage_id_Homepage1" id="B5F807BC-D37B-35F5-4D38-16C68C9519B5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<generatorID>A6C2DAF0-5D8A-4924-07C5-90CC948DA022</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D7C2A0C-9F73-43F3-3779-D68CB9824280" name="Newsletter_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2A401E98-50E9-D66C-E563-244EE1B5C8F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7217218D-98D3-C6F1-2D22-30432713ED7C" name="Newsletter__IDX">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6C4A1241-C3E0-19F8-1DFB-17C14FD21F87</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A9E8A63A-6F47-1D06-727A-E9DB2A84F297"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47572A05-5693-F693-47A7-90AD3BB1F096" name="Newsletter__IDXv1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2CA354B2-5DFF-1C63-5F7E-E4B82583D66E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B5F807BC-D37B-35F5-4D38-16C68C9519B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1163553A-AD43-8221-8738-25D1A60C1504" name="Newsletter_Homepage_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>6C4A1241-C3E0-19F8-1DFB-17C14FD21F87</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9E8A63A-6F47-1D06-727A-E9DB2A84F297"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

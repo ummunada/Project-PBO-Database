@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACB74BE4-1B8E-8EB3-78D5-E036DE7B6DA1" name="Detail_Wisata">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>1A952489-655D-67E4-CAD7-5A45E7240F61</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Wisata_id_Wisata" id="527CF7A5-E5D4-1F39-3151-9D3DAD9920A2">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>D7EFC602-E44E-F8FC-84DC-A2A63E9B1D1E</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9315F257-B87E-8C26-4F61-BC59088F0A25" referredColumn="29D78ED2-C17C-FAC4-D8F9-4743CD2F4257"/>
+</associations>
+</Column>
+<Column name="Fasilitas_Wisata_Fasilitas_Wisata_ID" id="AD3EFE01-3D1A-8D04-CC72-0D2A6861AF2A">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE21CD57-FF9E-C11F-09B6-3646D99DBE27" referredColumn="92FB370B-5199-89DD-D899-5C58821DD1A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="432EF257-1A38-89FE-6F98-5DBF5A4D27A2" name="Detail_Wisata_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>09AD8D5F-8707-9747-8096-30B031130005</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="527CF7A5-E5D4-1F39-3151-9D3DAD9920A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF3C5971-0C9A-C67B-E488-F7F40EC45DEC" name="Detail_Wisata_Wisata_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>70E003A9-5E91-698C-CEFD-83BDCA83146C</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="527CF7A5-E5D4-1F39-3151-9D3DAD9920A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B1369E4-1F39-25D5-2B1A-33B17F1AC1D0" name="Detail_Wisata_Fasilitas_Wisata_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>519C384E-213A-93F5-9A05-3C047BDAA4E5</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD3EFE01-3D1A-8D04-CC72-0D2A6861AF2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

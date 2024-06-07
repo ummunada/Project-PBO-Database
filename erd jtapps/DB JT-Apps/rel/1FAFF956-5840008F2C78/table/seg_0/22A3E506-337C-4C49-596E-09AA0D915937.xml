@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22A3E506-337C-4C49-596E-09AA0D915937" name="UMKM">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>7C103EA6-51E4-0C39-AB2E-481FCDBEB10C</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nama_umkm" id="2C7027E3-A7C0-AE4E-0F52-14E2022598BA">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>2C5C4657-812D-9F19-FF34-0FDDAEB81F40</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deskripsi" id="0DD66BB6-9CD5-F301-E137-184A6CCFDABF">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>6F56E893-AF4C-2F9F-2E37-2BA0D4D6726E</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto_header" id="E7A4126F-75DA-F2EF-B8A8-62F1360538FC">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>26C30A9F-F01F-F957-D605-6EAF607D34A1</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto_produk" id="F32BC411-FCFB-4497-03DB-DA16530D2A09">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>D92D05F1-5722-8A87-97A3-30E19488525D</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokasi" id="D6E482B6-3D5B-02DB-152F-3026D64EEB67">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>A29D56CD-247A-3934-9F93-44C4902B67E6</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wisata_id_Wisata" id="A357EE26-10EB-E17D-BD95-B6CA957A17EA">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>DAF13B2D-30E4-E217-176B-8CA9BBF4C7D7</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC9BDBD0-A645-25BD-FE52-CB4A752F480C" referredColumn="29D78ED2-C17C-FAC4-D8F9-4743CD2F4257"/>
+</associations>
+</Column>
+<Column name="UMKM_ID" id="FF432C19-3FDA-0977-C088-30A91A6B787D">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="967A4E65-4EC4-7DF5-A87E-561F9D0ABBBD" name="UMKM_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FF432C19-3FDA-0977-C088-30A91A6B787D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11A6FE7B-7843-33EA-D3F7-B185B24B9F32" name="UMKM_Wisata_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>CF2EFB24-BB7F-01EB-A5CF-2BC9320B40E5</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A357EE26-10EB-E17D-BD95-B6CA957A17EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

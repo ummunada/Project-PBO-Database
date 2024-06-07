@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="115AD4D8-C0B1-1749-D946-C42EA19CCDC5" name="FAQ">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>4233C0E1-3C5C-F391-844B-396AA606373A</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pertanyaan" id="D1E9DE7C-BE81-45DB-4346-4BBA1818C590">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>F75C4102-0DC4-F88F-27BD-AB30445373E2</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jawaban" id="58BEDE79-29B8-846F-1085-711A28027A10">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>079170AF-856E-CFD6-2A6B-41B5FEE39D6C</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Homepage_id_Homepage" id="36637766-57A5-50AE-7381-1AAB518B8D48">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>435CBBA7-7D01-8D42-6A69-8B897C3DE69C</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC4CBC12-1F54-252C-0742-89C6251C023E" referredColumn="020149AF-0FDE-0049-A537-0351CFEA1D83"/>
+</associations>
+</Column>
+<Column name="FAQ_ID" id="9F8E7169-9FA6-7F27-7DF1-CCFA178BD96E">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7595EAA1-5934-6C14-0B91-802EF1715F08" name="FAQ_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9F8E7169-9FA6-7F27-7DF1-CCFA178BD96E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE41D959-0FA3-1833-FCA4-949E618C50D3" name="FAQ__IDX">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>71B090EE-25E7-2E2F-FEDA-E1F36946B5F3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="36637766-57A5-50AE-7381-1AAB518B8D48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0685F25-6AE7-F215-1B4A-31CA2C190C40" name="FAQ_Homepage_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>71B090EE-25E7-2E2F-FEDA-E1F36946B5F3</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36637766-57A5-50AE-7381-1AAB518B8D48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

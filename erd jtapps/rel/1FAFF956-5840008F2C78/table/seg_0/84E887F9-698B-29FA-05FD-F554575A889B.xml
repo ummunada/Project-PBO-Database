@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84E887F9-698B-29FA-05FD-F554575A889B" name="Akun_Admin">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>5E23B2D2-CB68-D098-2B56-CD61ED09F834</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_AkunAdmin" id="C2D043DA-B75D-CE36-9DC9-2226AD5E56D0">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>BA77BEE5-C529-4E93-F81B-90213E4CC325</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username" id="9BABAB0A-CEE5-7BAE-DA06-71950AE32D07">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>A14414DD-4320-5B09-4964-8AD3D6B1E39C</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kata_Sandi" id="DB68BB25-EE37-D001-AE2C-FDD8E1BC6030">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>E5CCF961-5022-FAC6-E80E-AC01C859CA11</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Homepage_id_Homepage" id="65B45D03-9736-265E-5AD0-2A135C93C01E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>E383BFE5-3D59-E5E7-8CB9-3407F612793F</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D56D8B3-0206-E352-C21E-64FB3090A8DF" referredColumn="804C4E74-7F50-43FD-90D1-8E9F2631AC81"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B43D722F-BC69-23FC-558B-FACE3B3ED990" name="Akun_Admin_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>AE58C954-0E3F-C925-E229-A5593FA49A65</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2D043DA-B75D-CE36-9DC9-2226AD5E56D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE57945F-FECA-1E0E-367A-F50086F1BB8E" name="Akun_Admin__IDX">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E989A211-811F-52DF-8639-89BEAD0AC28D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="65B45D03-9736-265E-5AD0-2A135C93C01E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD33A5EF-9973-E4BD-47B3-A10E887AD7E9" name="Akun_Admin_Homepage_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 14:51:07 UTC</createdTime>
+<generatorID>E989A211-811F-52DF-8639-89BEAD0AC28D</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65B45D03-9736-265E-5AD0-2A135C93C01E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

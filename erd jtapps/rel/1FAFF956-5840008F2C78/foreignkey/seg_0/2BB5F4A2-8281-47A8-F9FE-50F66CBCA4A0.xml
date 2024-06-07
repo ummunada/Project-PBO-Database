@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2BB5F4A2-8281-47A8-F9FE-50F66CBCA4A0" containerWithKeyObject="B6C17A7B-AECE-7B7D-D823-5FBF565D68E8" localFKIndex="46E309D0-476A-D408-B009-CD680BA5B22C" name="Staff_Jabatan_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>3E2F76C9-580B-CF59-D41C-A96B0DB2A561</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<referredTableLongName>Jabatan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D1FC955A-389D-1098-427F-4921F4CD9E9B</referredTableID>
+<keyObject>44077688-B003-AD6A-8582-6D2077BB7FA7</keyObject>
+<referredKeyID>44077688-B003-AD6A-8582-6D2077BB7FA7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_Jabatan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

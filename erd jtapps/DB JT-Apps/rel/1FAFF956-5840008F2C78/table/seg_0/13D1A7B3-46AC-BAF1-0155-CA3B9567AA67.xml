@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13D1A7B3-46AC-BAF1-0155-CA3B9567AA67" name="Akun_Admin">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>5E23B2D2-CB68-D098-2B56-CD61ED09F834</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_AkunAdmin" id="23007979-570D-2E59-AF86-EA01B06AF28C">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>BA77BEE5-C529-4E93-F81B-90213E4CC325</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username" id="4BAC25FF-4289-42AD-BF64-FB38F3BCB398">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>A14414DD-4320-5B09-4964-8AD3D6B1E39C</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kata_Sandi" id="FD94C626-B000-5937-C25B-8B2C6CAE4A8D">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>E5CCF961-5022-FAC6-E80E-AC01C859CA11</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Homepage_id_Homepage" id="93D569CD-ECF2-0AC1-3F3C-6513C5D55780">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>E383BFE5-3D59-E5E7-8CB9-3407F612793F</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F944D37-7F7A-F956-2BF5-9D10458D562F" referredColumn="020149AF-0FDE-0049-A537-0351CFEA1D83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F142CD9C-3725-D099-65B5-1B3A62993EEA" name="Akun_Admin_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>AE58C954-0E3F-C925-E229-A5593FA49A65</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23007979-570D-2E59-AF86-EA01B06AF28C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48FA2EBA-553C-2F46-ED59-25EE5771D9C1" name="Akun_Admin__IDX">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E989A211-811F-52DF-8639-89BEAD0AC28D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="93D569CD-ECF2-0AC1-3F3C-6513C5D55780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BE1BA80-BA42-5071-2DCA-74B0A10E9F12" name="Akun_Admin_Homepage_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>E989A211-811F-52DF-8639-89BEAD0AC28D</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93D569CD-ECF2-0AC1-3F3C-6513C5D55780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

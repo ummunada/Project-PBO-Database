@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="D8CE0A50-A150-D5A2-72CC-1DC614FE7D55">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-11 16:00:48 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>002227BD-1BF9-E04E-DD0F-F0D6D2CF1B7B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA723EF9-8F3B-E50F-9E7A-BE171202F53E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

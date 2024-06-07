@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAF143F6-9123-F402-8BC6-BE36731EB4F8" containerWithKeyObject="F9002DDC-1A4C-065F-D3A7-1648819992D8" localFKIndex="6B196512-7F93-A769-ECA6-422336E8C2BB" name="Image_Slider_Homepage_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>45C99E3B-7D90-0B3B-6579-D55D23EDDD79</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<referredTableLongName>Homepage</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A3F1BE4-949E-8767-88AF-87F6CA89DABC</referredTableID>
+<keyObject>E65C3BB4-C7C1-1639-0EC2-3E0146DF28F8</keyObject>
+<referredKeyID>E65C3BB4-C7C1-1639-0EC2-3E0146DF28F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_Homepage</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

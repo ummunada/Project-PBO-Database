@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E87985AA-4465-E76F-450F-9E9BAAB61263" name="Booking_Hotel">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>CBCF8596-2C4E-25FA-B9B5-95741B11835F</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tanggal_Datang" id="EAE2FB42-09C9-9BC9-47D5-7F52C745A3F5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>831BE4D5-942A-96FF-D094-8E85E008BB73</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Keluar" id="45497688-CA07-79BD-5F2A-6C764E5A5361">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>364B5687-F58B-FE1F-A967-D20278549A2B</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="E3B6F6CB-D3C7-9992-5633-86DF14402BCD">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>AB2C9EBA-A44F-0CFD-FACB-A24CCCB68E12</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_Nomor_Telepon" id="1A31AD03-91D1-2E42-C81C-F259A2786A80">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>71CCA850-F0AF-89E6-BA36-358CE3C9947B</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64A99454-312B-109B-C2E3-D96AECF4680E" referredColumn="88CE22EC-06F0-F986-936F-035354A94AFC"/>
+</associations>
+</Column>
+<Column name="Booking_Hotel_ID" id="F26740DD-9D95-4564-05A5-EF94499E0F90">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Paket_Kamar_Paket_Kamar_ID" id="0FCF2B63-C0EF-B90A-4429-72F1A569A8D8">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D523CBC-D370-5849-2312-4E66D51D3F4D" referredColumn="3F8479EB-9FBB-55CC-BF65-C73CC5615375"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55B40847-ACAB-20FC-8CC0-09DDCD61894C" name="Booking_Hotel_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F26740DD-9D95-4564-05A5-EF94499E0F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F1A699C-96C8-0092-E731-4282CAF4EB08" name="Booking_Hotel_User_Nomor_Telepon_UN">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>D1EABAF1-CAE9-0CA2-C10A-5C46DC810246</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A31AD03-91D1-2E42-C81C-F259A2786A80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63D8957C-38F4-C75E-52C6-09D5E364F4C4" name="Booking_Hotel_User_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>6776E39D-9350-E30B-63E9-BF19268B5783</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A31AD03-91D1-2E42-C81C-F259A2786A80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E64EF639-7C86-69F1-1E3C-83538C880927" name="Booking_Hotel_Paket_Kamar_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>BF9E70AE-B0DF-D691-D61A-F773CE9EBB27</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FCF2B63-C0EF-B90A-4429-72F1A569A8D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

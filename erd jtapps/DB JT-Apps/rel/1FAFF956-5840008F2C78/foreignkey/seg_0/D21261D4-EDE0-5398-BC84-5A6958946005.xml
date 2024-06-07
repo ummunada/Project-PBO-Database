@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D21261D4-EDE0-5398-BC84-5A6958946005" containerWithKeyObject="2E285E6E-9A9D-0E41-F651-017633B4488D" localFKIndex="89DF3F9D-BAE4-A069-85F6-463FE272009C" name="Paket_Kamar_Jenis_Kamar_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>419069D8-0A5D-D86A-0648-A97DF3BB083C</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<referredTableLongName>Jenis_Kamar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2AAE158F-7C65-CCD7-E92D-89B280CDEFBC</referredTableID>
+<keyObject>D095652A-6391-EC1A-C3D5-50958D8588E9</keyObject>
+<referredKeyID>D095652A-6391-EC1A-C3D5-50958D8588E9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_JenisKamar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

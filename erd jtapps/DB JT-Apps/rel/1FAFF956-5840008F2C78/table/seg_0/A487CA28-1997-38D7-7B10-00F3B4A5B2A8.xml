@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A487CA28-1997-38D7-7B10-00F3B4A5B2A8" name="Penilaian">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>370D2BF5-BD64-8634-E302-E070F2D30D87</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Review" id="C8589FB4-786F-DD89-2461-0FA8F9A6BA5E">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>BB23C01C-1ABB-0FDE-FDE3-4E58F529F54E</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rating_Tempat" id="02CDEF2D-D531-9699-DCD9-E287AE409FFA">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>D134CA85-ABA0-4EC9-416E-3CE63D593D9E</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_Nomor_Telepon" id="F903BFDE-8CAF-B0C9-7B22-56834FD4AC35">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-19 22:37:39 UTC</createdTime>
+<generatorID>A53720F7-D7B0-3B93-5513-12322671EEB0</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wisata_id_Wisata" id="9241A059-2D18-477B-6542-630F9B99DC99">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>855535C2-1900-E4E2-0C4F-DBD63CC64E7F</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1BD12A8-D68F-5080-3510-524995D0D205" referredColumn="29D78ED2-C17C-FAC4-D8F9-4743CD2F4257"/>
+</associations>
+</Column>
+<Column name="Penilaian_ID" id="9179A7C0-E615-BF63-746E-E9A2F9124A26">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="foto" id="1C46A281-9299-E638-B5A0-FC72DAEED2AC">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 15:13:45 UTC</createdTime>
+<generatorID>ED1DD679-02AD-4657-F7FF-05038E3F2D2C</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_User_ID" id="12A07580-DA39-23EA-E5B8-6124221D6941">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 15:19:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7E989E4-8954-D981-43C6-C4C02097435E" referredColumn="219CA5CB-39B3-AB0F-702B-4775C4570193"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27EB5689-0A8B-C3F7-EA86-79C034D88A12" name="Penilaian_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9179A7C0-E615-BF63-746E-E9A2F9124A26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B93FA3BE-3C5E-AA19-0392-6FBBD6EEA7AC" name="Penilaian_Wisata_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>2B8B4521-6FD9-D619-A450-73CC61FC467D</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9241A059-2D18-477B-6542-630F9B99DC99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="322AE7B3-E06A-4A3D-24D6-B078D9DC1F63" name="Penilaian_User_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 15:19:08 UTC</createdTime>
+<generatorID>05F200C4-3793-0174-4CD9-533DF07442CE</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12A07580-DA39-23EA-E5B8-6124221D6941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

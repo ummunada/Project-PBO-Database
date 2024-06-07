@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A952489-655D-67E4-CAD7-5A45E7240F61" name="Detail_Wisata">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-06 09:50:49 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Wisata" id="D7EFC602-E44E-F8FC-84DC-A2A63E9B1D1E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-11 15:52:30 UTC</createdTime>
+<generatorID>70E003A9-5E91-698C-CEFD-83BDCA83146C</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<referedAttribute>B789AD2C-9799-EDEE-3B65-09A7E375CBE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09AD8D5F-8707-9747-8096-30B031130005" name="Detail_Wisata PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-11 15:52:30 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<engineerTo>
+<item key="1FAFF956-965F-73E9-5E71-5840008F2C78" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7EFC602-E44E-F8FC-84DC-A2A63E9B1D1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

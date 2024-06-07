@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBE10614-88F0-6C30-A4FA-4168D4A3398B" name="Booking_Hotel">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>CBCF8596-2C4E-25FA-B9B5-95741B11835F</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tanggal_Datang" id="34B51B76-6DD3-8CD3-2A82-8C6AACAEA044">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>831BE4D5-942A-96FF-D094-8E85E008BB73</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Keluar" id="DE8BEE1B-5A9B-4F5B-1550-D92009280787">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>364B5687-F58B-FE1F-A967-D20278549A2B</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="4ED50736-FD20-714D-9A1B-76A7C1903CF6">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>AB2C9EBA-A44F-0CFD-FACB-A24CCCB68E12</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_Nomor_Telepon" id="4448FB5B-269A-6860-FBEF-7DFABAC45631">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>71CCA850-F0AF-89E6-BA36-358CE3C9947B</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Booking_Hotel_ID" id="4FB757C3-B9C8-BABF-EE5A-CA0CE411036C">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Paket_Kamar_Paket_Kamar_ID" id="2C7E72D0-CA2E-29BD-1225-1DA34895321E">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4CEBD46-78E9-927C-FDF3-8B3B6972686C" referredColumn="A1E55B10-238E-1F4C-8D12-46E6ED3669D7"/>
+</associations>
+</Column>
+<Column name="index" id="452A14E9-B14E-9451-341D-92DC2B1E3AA8">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 15:13:45 UTC</createdTime>
+<generatorID>FD9F409A-E5AE-B9E2-2111-5FE1E338DBEE</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_User_ID" id="6D4460A1-6C60-1CEB-ED98-22DEAB132AEC">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 15:19:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E8FCCE9-379B-AFF7-1176-77D815A389F8" referredColumn="219CA5CB-39B3-AB0F-702B-4775C4570193"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79FCD9B1-D783-4A93-36C2-A67A03781CB1" name="Booking_Hotel_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4FB757C3-B9C8-BABF-EE5A-CA0CE411036C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6B8BE8E-6775-0986-FB15-820F42805B5F" name="Booking_Hotel_User_Nomor_Telepon_UN">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>D1EABAF1-CAE9-0CA2-C10A-5C46DC810246</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4448FB5B-269A-6860-FBEF-7DFABAC45631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94339900-3D18-D060-AA13-7DC08D921192" name="Booking_Hotel_User_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>6776E39D-9350-E30B-63E9-BF19268B5783</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D4460A1-6C60-1CEB-ED98-22DEAB132AEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5946512A-9062-10E0-0DFF-5FFCE20AC265" name="Booking_Hotel_Paket_Kamar_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>BF9E70AE-B0DF-D691-D61A-F773CE9EBB27</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C7E72D0-CA2E-29BD-1225-1DA34895321E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

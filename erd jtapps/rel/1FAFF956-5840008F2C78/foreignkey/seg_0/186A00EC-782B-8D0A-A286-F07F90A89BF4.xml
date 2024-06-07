@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="186A00EC-782B-8D0A-A286-F07F90A89BF4" containerWithKeyObject="5289E762-E26A-895F-5B44-138677CADF69" localFKIndex="D2BC1EA0-66FB-D34A-1804-8F9F67E802B1" name="Wisata_Penilaian_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>91F4E4AE-6524-D27E-D393-E1C55D2AE380</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<referredTableLongName>Penilaian</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC09B06F-06DC-6C3E-B637-4024F01944AE</referredTableID>
+<keyObject>D7FDD0F0-3CBA-2999-7730-9DFF900ECC4F</keyObject>
+<referredKeyID>D7FDD0F0-3CBA-2999-7730-9DFF900ECC4F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Penilaian_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="322EFE72-E82C-9E70-F324-2EF112D3057B" containerWithKeyObject="BFB93A58-8F93-60A0-0577-CA4E37A03FA4" localFKIndex="22CCEDB6-C66F-FFFB-2A0A-B1BC1B58468D" name="Wishlist_Tiket_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>D7D41C4D-3D73-1911-82C2-1F35037442C3</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<referredTableLongName>Tiket</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB67E46C-E4A2-93F6-161E-37483C0E4BD3</referredTableID>
+<keyObject>1A419C69-7036-DA4D-9903-D6A603A1C7C2</keyObject>
+<referredKeyID>1A419C69-7036-DA4D-9903-D6A603A1C7C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Tiket_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

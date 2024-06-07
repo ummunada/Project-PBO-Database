@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9464742C-641E-42C6-29A8-BED7174C5F25" containerWithKeyObject="94635418-D517-BBD8-7EF7-F6A4A5CF1D7F" localFKIndex="D80A1E09-A1A6-6654-6DC9-E84DC78DEE13" name="Homepage_FAQ_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>71B090EE-25E7-2E2F-FEDA-E1F36946B5F3</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<referredTableLongName>FAQ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>704ACDEB-3D32-A0EF-FA11-DEDD08D96879</referredTableID>
+<keyObject>E78F5DCB-19E2-8849-5AE7-A84878015961</keyObject>
+<referredKeyID>E78F5DCB-19E2-8849-5AE7-A84878015961</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FAQ_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

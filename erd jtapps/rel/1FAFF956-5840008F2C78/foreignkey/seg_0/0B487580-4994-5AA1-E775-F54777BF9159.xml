@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B487580-4994-5AA1-E775-F54777BF9159" containerWithKeyObject="234306E9-C1D6-79F3-CE1B-2D9488FEA870" localFKIndex="8537290E-AFA0-56F7-7002-876335EFB4FD" name="Detail_Transaksi_Wishlist_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>368A5493-1E94-7C7D-004B-7603CBADD5A2</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<referredTableLongName>Wishlist</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A99F966-6B4D-3983-079E-2A5DF4796827</referredTableID>
+<keyObject>55D50576-7F84-BF83-CDD9-A1DECD3E2536</keyObject>
+<referredKeyID>55D50576-7F84-BF83-CDD9-A1DECD3E2536</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Wishlist_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

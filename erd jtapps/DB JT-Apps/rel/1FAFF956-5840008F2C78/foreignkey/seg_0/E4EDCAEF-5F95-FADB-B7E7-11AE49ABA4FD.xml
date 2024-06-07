@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4EDCAEF-5F95-FADB-B7E7-11AE49ABA4FD" containerWithKeyObject="B6EC0030-80D2-8DF1-4475-A0D17ACF1949" localFKIndex="D3736D45-2551-0789-DB05-18C814DF9263" name="Transaksi_User_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>532161FE-FA1F-6940-997B-701714EBBEE3</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<referredTableLongName>User</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76FAF8E4-B5A4-42DC-7FE3-AB37D5759BB0</referredTableID>
+<keyObject>D069341E-5D3F-E41A-8EAF-179631B63ACE</keyObject>
+<referredKeyID>D069341E-5D3F-E41A-8EAF-179631B63ACE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nomor_Telepon</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

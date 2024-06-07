@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F4CEBD46-78E9-927C-FDF3-8B3B6972686C" containerWithKeyObject="BBE10614-88F0-6C30-A4FA-4168D4A3398B" localFKIndex="5946512A-9062-10E0-0DFF-5FFCE20AC265" name="Booking_Hotel_Paket_Kamar_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>BF9E70AE-B0DF-D691-D61A-F773CE9EBB27</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<referredTableLongName>Paket_Kamar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E285E6E-9A9D-0E41-F651-017633B4488D</referredTableID>
+<keyObject>71B865C1-6B40-46A0-F3DC-B902FE043631</keyObject>
+<referredKeyID>71B865C1-6B40-46A0-F3DC-B902FE043631</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Paket_Kamar_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

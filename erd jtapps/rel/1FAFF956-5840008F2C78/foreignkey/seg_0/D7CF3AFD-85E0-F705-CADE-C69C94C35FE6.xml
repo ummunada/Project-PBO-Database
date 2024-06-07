@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7CF3AFD-85E0-F705-CADE-C69C94C35FE6" containerWithKeyObject="9BEE53BB-4696-5542-C159-AA0DF389E066" localFKIndex="3328F978-34D3-D908-0EE8-2B7F27146157" name="Detail_Wisata_Fasilitas_Wisata_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>519C384E-213A-93F5-9A05-3C047BDAA4E5</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<referredTableLongName>Fasilitas_Wisata</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>922F6D0C-D7CD-9FF6-0D2E-30BBF2336AD5</referredTableID>
+<keyObject>E84494E7-FC20-C901-D248-2882BABC918C</keyObject>
+<referredKeyID>E84494E7-FC20-C901-D248-2882BABC918C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Fasilitas_Wisata_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

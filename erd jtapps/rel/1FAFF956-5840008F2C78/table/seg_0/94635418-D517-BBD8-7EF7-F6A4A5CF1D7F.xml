@@ -1,0 +1,317 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94635418-D517-BBD8-7EF7-F6A4A5CF1D7F" name="Homepage">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>B7654106-0C99-B2B3-8C7C-F2D62AB279EA</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Homepage" id="804C4E74-7F50-43FD-90D1-8E9F2631AC81">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>723C249E-B196-041D-D16A-991A7663A305</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Homepage" id="AEBCCF3B-024C-51DE-F214-705C60558EBD">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>BC7B56EF-5E28-7D4F-8EB5-1C41030A69FD</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Akun_Admin_id_AkunAdmin" id="6A50F020-D79F-3F5F-7916-08CCD8EB2E7B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>66796C29-6ED6-CF35-6774-667E114AC5A8</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA6CBC17-5F7A-A218-7B6D-38F1A9AD4A7C" referredColumn="C2D043DA-B75D-CE36-9DC9-2226AD5E56D0"/>
+</associations>
+</Column>
+<Column name="FAQ_FAQ_ID" id="06EB68D0-26BF-3681-E751-05A73E8D7CAF">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9464742C-641E-42C6-29A8-BED7174C5F25" referredColumn="DE63F841-AEAC-6E5B-1307-94AADC83FBCE"/>
+</associations>
+</Column>
+<Column name="Newsletter_Newsletter_ID" id="DC382912-8395-5E9C-E19A-1520F4BE8345">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20183D8F-B509-6408-F2C5-268DA6A83D40" referredColumn="2A401E98-50E9-D66C-E563-244EE1B5C8F8"/>
+</associations>
+</Column>
+<Column name="Voucher_Voucher_ID" id="312BA370-BDE6-AD21-5D47-F61EDF151B73">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7B653AF-017C-82AB-AEF6-74A833D80FEC" referredColumn="03CB84CE-71B8-86BA-4790-2DED69DFA9E9"/>
+</associations>
+</Column>
+<Column name="Image_Slider_Image_Slider_ID" id="71E357BA-5429-80CE-593E-58757BFB055C">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFBC2954-2D6F-92D4-4EBA-57BBDE495FB3" referredColumn="55C01010-5DC6-6F05-09F2-4D5EF85E2F71"/>
+</associations>
+</Column>
+<Column name="Voucher_Voucher_ID2" id="FD179746-72FD-A04E-C552-04839D313DC5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAQ_FAQ_ID2" id="03A7F356-78B4-DD46-7EFD-7322CAC57D78">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Newsletter_Newsletter_ID2" id="860CFAFC-7AE0-28A7-3D40-EC6798307807">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Image_Slider_Image_Slider_ID2" id="D633E9F5-1D17-2B85-71CF-0D374EB9DC40">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55EE285E-61FD-CF6B-AC87-E131A5AB3D27" name="Homepage_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>D1117EF0-3A3A-8E8A-2D92-4385A8C6A8CA</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="804C4E74-7F50-43FD-90D1-8E9F2631AC81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B69F6E0-8EDA-0086-B745-13778A7AFC92" name="Homepage__IDX">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>71B090EE-25E7-2E2F-FEDA-E1F36946B5F3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="06EB68D0-26BF-3681-E751-05A73E8D7CAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B05C38A-EA60-DA3A-3607-6F0462F32F1B" name="Homepage__IDXv1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6C4A1241-C3E0-19F8-1DFB-17C14FD21F87</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DC382912-8395-5E9C-E19A-1520F4BE8345"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC399740-AD3D-BB28-242C-D2F34A60778E" name="Homepage__IDXv2">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>344BABAA-E7D2-39B9-88D7-1B31FD48B35E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="312BA370-BDE6-AD21-5D47-F61EDF151B73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="591213FA-B92F-7595-0EB0-4226C291E4BB" name="Homepage__IDXv3">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>45C99E3B-7D90-0B3B-6579-D55D23EDDD79</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="71E357BA-5429-80CE-593E-58757BFB055C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3AB6071-6F7B-AE9B-92A0-C5AD6391D646" name="Homepage__IDXv4">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E989A211-811F-52DF-8639-89BEAD0AC28D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6A50F020-D79F-3F5F-7916-08CCD8EB2E7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2347A46F-499C-AC42-D4EA-5F23B0813BCD" name="Homepage__IDXv5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C6CF6FE7-773A-5985-BE0E-2D0A80247A80</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FD179746-72FD-A04E-C552-04839D313DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B92AEF49-232A-4299-B122-F15D5B34F4A5" name="Homepage__IDXv6">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>510F819C-5BB5-0AC4-7221-594DADD83659</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="03A7F356-78B4-DD46-7EFD-7322CAC57D78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFCF20F2-7CF3-D790-BFE7-0923366DF0BF" name="Homepage__IDXv7">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2CA354B2-5DFF-1C63-5F7E-E4B82583D66E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="860CFAFC-7AE0-28A7-3D40-EC6798307807"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C572A5F8-F855-C0A0-AA06-E867CDF52445" name="Homepage__IDXv8">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5E59B8E5-667C-2F13-91C0-7AEAF99BDBA4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D633E9F5-1D17-2B85-71CF-0D374EB9DC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D80A1E09-A1A6-6654-6DC9-E84DC78DEE13" name="Homepage_FAQ_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>71B090EE-25E7-2E2F-FEDA-E1F36946B5F3</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06EB68D0-26BF-3681-E751-05A73E8D7CAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FD29F37-C9B0-07EC-AB9D-8E86921956E3" name="Homepage_Newsletter_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>6C4A1241-C3E0-19F8-1DFB-17C14FD21F87</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC382912-8395-5E9C-E19A-1520F4BE8345"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEE57918-FBB4-9A79-86B3-B8AC74E12B6E" name="Homepage_Voucher_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>344BABAA-E7D2-39B9-88D7-1B31FD48B35E</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="312BA370-BDE6-AD21-5D47-F61EDF151B73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF1A7E36-5C77-5D2A-5560-7073680B5D69" name="Homepage_Image_Slider_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>45C99E3B-7D90-0B3B-6579-D55D23EDDD79</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E357BA-5429-80CE-593E-58757BFB055C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ACB9A0A-3976-C75A-81A7-1ADC0A0D0F37" name="Homepage_Akun_Admin_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 14:51:07 UTC</createdTime>
+<generatorID>E989A211-811F-52DF-8639-89BEAD0AC28D</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A50F020-D79F-3F5F-7916-08CCD8EB2E7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

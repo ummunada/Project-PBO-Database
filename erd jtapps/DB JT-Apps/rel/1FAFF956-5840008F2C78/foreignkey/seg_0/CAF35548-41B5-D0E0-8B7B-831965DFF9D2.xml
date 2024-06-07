@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CAF35548-41B5-D0E0-8B7B-831965DFF9D2" containerWithKeyObject="35271014-6FF0-9942-13A4-B0714DAF63B3" localFKIndex="BA28C5AB-A200-C57D-01DE-9561603BCCAA" name="Detail_Transaksi_Pengunjung_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>E987A5FD-9EBC-66D7-E454-1F80120E8830</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<referredTableLongName>Pengunjung</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EBA0770C-CC39-9D44-AE0E-61923A44EAC2</referredTableID>
+<keyObject>71B5E500-1520-CB6D-D6C2-DDAFF05C552A</keyObject>
+<referredKeyID>71B5E500-1520-CB6D-D6C2-DDAFF05C552A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pengunjung_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

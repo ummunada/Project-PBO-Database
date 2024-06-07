@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C53D407E-9700-1620-A322-4A17C263D30C" containerWithKeyObject="02836EB0-875F-4DE0-2F98-8CF20E07FE14" localFKIndex="C79201F8-C6C2-8C60-1596-4A1E2A14D09E" name="UMKM_Penilaian_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>39C048A7-6DB4-50B6-2D51-0D2D939C5AC3</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<referredTableLongName>Penilaian</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC09B06F-06DC-6C3E-B637-4024F01944AE</referredTableID>
+<keyObject>D7FDD0F0-3CBA-2999-7730-9DFF900ECC4F</keyObject>
+<referredKeyID>D7FDD0F0-3CBA-2999-7730-9DFF900ECC4F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Penilaian_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

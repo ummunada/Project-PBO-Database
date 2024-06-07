@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="97300537-509F-2B92-2267-DD4D8D43DC7E" containerWithKeyObject="079DA527-B89D-FA6F-92E7-CD38CC18F988" localFKIndex="5E07364A-BB50-D254-8715-ADC603244221" name="nomor_darurat_Homepage_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>399B07E3-224D-785A-66D4-829C8E15CB16</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<referredTableLongName>Homepage</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A3F1BE4-949E-8767-88AF-87F6CA89DABC</referredTableID>
+<keyObject>E65C3BB4-C7C1-1639-0EC2-3E0146DF28F8</keyObject>
+<referredKeyID>E65C3BB4-C7C1-1639-0EC2-3E0146DF28F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_Homepage</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

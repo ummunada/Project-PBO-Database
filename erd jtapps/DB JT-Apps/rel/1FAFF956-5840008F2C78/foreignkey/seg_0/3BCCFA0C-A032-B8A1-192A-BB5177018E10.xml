@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3BCCFA0C-A032-B8A1-192A-BB5177018E10" containerWithKeyObject="B6EC0030-80D2-8DF1-4475-A0D17ACF1949" localFKIndex="62C81932-0950-185A-A844-144F729085BE" name="Transaksi_Voucher_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-06-17 12:08:08 UTC</createdTime>
+<generatorID>D8CE0A50-A150-D5A2-72CC-1DC614FE7D55</generatorID>
+<ownerDesignName>DB JT-Apps</ownerDesignName>
+<referredTableLongName>Voucher</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28BDC1F4-AB1F-B206-877A-0102948C8142</referredTableID>
+<keyObject>32F1B466-A9F5-5F61-E6BC-0254EE700BED</keyObject>
+<referredKeyID>32F1B466-A9F5-5F61-E6BC-0254EE700BED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Voucher_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

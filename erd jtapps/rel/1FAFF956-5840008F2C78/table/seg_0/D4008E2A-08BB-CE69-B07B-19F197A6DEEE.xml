@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4008E2A-08BB-CE69-B07B-19F197A6DEEE" name="Voucher">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>002227BD-1BF9-E04E-DD0F-F0D6D2CF1B7B</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Deskripsi" id="DE456C90-9110-7359-1FA3-EE67F7349EFC">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>97ED5F3A-B30D-818E-7892-90C366F2C1BB</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Homepage_id_Homepage" id="AF788777-DCFA-A6AC-C4AE-0038FDB55C2C">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>FEC05844-1FE2-09C4-5E91-DDA19703D334</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="985F922A-54BF-2B09-754E-C279721D13D3" referredColumn="804C4E74-7F50-43FD-90D1-8E9F2631AC81"/>
+</associations>
+</Column>
+<Column name="Harga_Voucher" id="1C67A7AC-4641-23AA-7C9D-889D42767F60">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>C577754F-9B4F-2A08-B324-B308A7A5D463</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Voucher_ID" id="03CB84CE-71B8-86BA-4790-2DED69DFA9E9">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Homepage_id_Homepage1" id="41C73EFF-66E6-0590-A2B3-36AF55751ADB">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<generatorID>CAFBF840-4CFD-64F7-F334-CDB2D95AD017</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82A8F8C1-B9E4-815B-CA59-5574BF210A4C" name="Voucher_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="03CB84CE-71B8-86BA-4790-2DED69DFA9E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7A9D1FC-7A66-9932-F4DF-B96DDC2C7D95" name="Voucher__IDX">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>344BABAA-E7D2-39B9-88D7-1B31FD48B35E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AF788777-DCFA-A6AC-C4AE-0038FDB55C2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CBFDE4E-F180-72C8-6997-0300985F0BF2" name="Voucher__IDXv1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:26:30 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C6CF6FE7-773A-5985-BE0E-2D0A80247A80</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="41C73EFF-66E6-0590-A2B3-36AF55751ADB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0F59880-26F4-E510-DF2E-F4D271AEDF51" name="Voucher_Homepage_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>344BABAA-E7D2-39B9-88D7-1B31FD48B35E</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF788777-DCFA-A6AC-C4AE-0038FDB55C2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

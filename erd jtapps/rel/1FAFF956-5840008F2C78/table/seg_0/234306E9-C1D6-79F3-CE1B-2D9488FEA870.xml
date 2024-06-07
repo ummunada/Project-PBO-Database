@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="234306E9-C1D6-79F3-CE1B-2D9488FEA870" name="Detail_Transaksi">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>1DB215D8-3F64-149A-76F4-97A0D0DED00B</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Transaksi_Transaksi_ID" id="4BAFE9D1-836A-A7AA-3B58-B9F06A30F78F">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D07D6037-B17A-D07D-67FB-2AD732351936" referredColumn="B074A323-8152-F798-C346-3E18B08E34B1"/>
+</associations>
+</Column>
+<Column name="Wishlist_Wishlist_ID" id="53D3B565-1685-65A3-E3EE-AE00C7AC64F7">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B487580-4994-5AA1-E775-F54777BF9159" referredColumn="6E4E3DE0-D236-6079-5419-FD282A0A13C1"/>
+</associations>
+</Column>
+<Column name="Pengunjung_Pengunjung_ID" id="609FCF38-1963-104B-9C19-E1381CAFDE78">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="214A80C4-D05B-069C-371F-754210EB115F" referredColumn="609E985B-C4FF-1110-F3A7-C9D15DD8495F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58FA5275-20E8-CDBD-1556-002D54F05D12" name="Detail_Transaksi_Transaksi_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>E59A819E-AD0C-7CCF-D62C-BDFA7D8619C8</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BAFE9D1-836A-A7AA-3B58-B9F06A30F78F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8537290E-AFA0-56F7-7002-876335EFB4FD" name="Detail_Transaksi_Wishlist_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>368A5493-1E94-7C7D-004B-7603CBADD5A2</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53D3B565-1685-65A3-E3EE-AE00C7AC64F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76A12D19-6338-223D-D916-40A2C42B1009" name="Detail_Transaksi_Pengunjung_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>E987A5FD-9EBC-66D7-E454-1F80120E8830</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="609FCF38-1963-104B-9C19-E1381CAFDE78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59684DEA-767C-4E31-3876-32F1700D0C04" containerWithKeyObject="2EF114D3-3B75-0704-056F-075F21B4FF20" localFKIndex="95A4113B-136B-7313-4907-A8FA431D4DE4" name="Transaksi_User_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2023-06-14 12:24:45 UTC</createdTime>
+<generatorID>532161FE-FA1F-6940-997B-701714EBBEE3</generatorID>
+<ownerDesignName>DB JT-Appz</ownerDesignName>
+<referredTableLongName>User</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D8C535F4-5037-B5F7-2220-E88FA092F1BE</referredTableID>
+<keyObject>FE2F93A8-4E2C-3E05-22D7-439572898220</keyObject>
+<referredKeyID>FE2F93A8-4E2C-3E05-22D7-439572898220</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nomor_Telepon</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
